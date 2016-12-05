@@ -1,0 +1,292 @@
+@-webkit-keyframes mueve_menu
+{
+  0%    {left:-110%;}
+}
+
+
+
+
+  
+body{
+  background:white;
+}
+*/
+header{
+  background: #f1f1f1;  
+}
+
+nav{
+  position:relative;
+  margin-top: -1%;
+  padding-top: -2%;
+  background: #0B3861;  
+}
+
+#Titulo, h1{
+ font-family: Champ;
+  color: #5F4C0B;
+  font-size: 28px;
+}
+#menu, li ul{
+  background: #261332;
+ opacity:0.9;
+  }
+
+#menu ul{
+  padding:0; 
+  list-style: none;
+}
+
+#regreso{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#regreso a{
+  color: white;
+  text-decoration: none;
+  font-family:Champ;
+  font-size: 150%;
+}
+#regreso li:hover{
+  background: #d68e10;   /**/
+}
+#regreso > li{
+  display: inline-block;
+}
+#regreso > li > a{
+  display: block;
+  padding: 15px 10px;
+  width: 90px;
+}
+li ul{
+  position: absolute;
+  display: none;
+}
+
+.submenu a{
+  display: block;
+  padding: 15px 10px;
+  width: 130px;
+}
+li:hover ul{
+display: block;
+z-index: 2;
+}
+
+
+
+
+
+
+.sec1{
+  width:59.8%;
+  height:10%;
+  margin-top:2%;
+  margin-left:10%;
+  background-color: #261332; 
+  opacity:.9; 
+  border-radius: 20px 20px 20px 20px;
+  position:relative;
+  padding:.01% 3% .1% 1%;
+  margin-left: 14%;
+  /*top right bottom left*/
+  background-attachment:scroll;
+    font-family: exp;
+    color: orange;
+  font-size: 190%;
+  
+}
+.sec2{
+    position:relative;
+  width:59.8%;
+  height:70%;
+  left:-4%;
+  margin-top:.2%;
+  margin-left:18%;
+  background-color: #f1f1f1;
+  opacity:1;
+  border-radius: 20px 20px 20px 20px;  
+  padding:.02% 2% .1% 2%;
+  font-family: heypr;
+    color: #311b02;
+  font-size: 200%;
+  
+}
+.sec3{
+    position:relative;
+  width:59.8%;
+  margin-left:-15%;
+  height:91%;
+  left:13%;
+  margin-top:0%;
+  background-color: #404040;
+  opacity:.9;
+  border-radius: 20px 20px 20px 20px;
+  padding:.01% 2% .01% 2%;
+  margin-left: 1%;
+  font-family: exp;
+    color: white;
+  font-size: 150%;
+  
+}
+
+footer{
+  height:5%;
+  width:97.5%;
+  margin-left:-0.7%;
+  margin-top:0%;
+  position:relative;
+  border:#036 0.5px dotted;   /*estilo de borde*/
+   padding:1% 0% 2% 4%;
+  background-color: #232323;
+  border-radius: 20px 20px 20px 20px;  
+  opacity:0.9;
+}
+
+#logo{
+  height: 110px;
+  width: 95px;
+}
+
+p{
+  font-family: Champ;
+  color: white;
+}
+h1{
+  font-family:Champ;
+  font-size: 120%;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  font-family:Champ;
+  font-size: 120%;
+  color: Black;
+}
+
+
+@font-face {
+  font-family:"exp";
+  src: url("../fuentes/exp.ttf");
+}
+  @font-face {
+  font-family:"Champ";
+  src: url("../fuentes/Champ.ttf");
+  
+  }
+   @font-face {
+  font-family:"Heypr";
+  src: url("../fuentes/Heypr.ttf");
+  
+  }
+    @font-face {
+  font-family:"peachanna";
+  src: url("../fuentes/peachanna.ttf");
+  
+  }
+
+
+.contenido1{
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+  /*border: 3px solid  #000;*/
+  color:#33C8FF;
+  background: #252365;
+  padding-left: 0em;
+}
+.contenido2{
+  width: 950px;
+  height: 300px;
+  margin: auto;
+  margin-top: 5px;
+  /*border: 3px solid  #000;*/
+  color:white;
+  background:white;
+  padding-left: 0em;
+}
+
+
+
+
+.contenido3{
+  background: #252365;
+  width: 300px;
+  height: 290px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  border-radius:3%;
+  color: red;
+}
+
+
+.nacionales {
+  width: 93%;
+  height: 83%;
+  margin: auto;
+  display: block;
+  border-radius:10%;
+  padding: 10px;
+
+}
+
+
+.botones{
+  background: ;
+  color:;
+   border-radius:;
+}
+
+.contenido4{
+  width: 300px;
+  height: 280px;
+  margin-top: 10px;
+  /*border: 3px solid  #000;*/
+  color:white;
+  background: ;
+  padding-left: 2em;
+   float: left;
+}
+.construccion{
+position: relative;
+margin: auto;
+height: 300px;
+  display: block;
+  border-radius:10%;
+  padding: 10px;
+   margin-top: -21px;
+      margin-left: 75%;
+   float: left;
+
+}
+
+p{
+ 
+   margin-bottom: 10px;
+   text-align:left;
+   font-size: 18px;
+   font-family:Calibri;
+   color:white;
+
+}
+.contenido5{
+   width: 610px;
+  height: 280px;
+  margin-top: 10px;
+  /*border: 3px solid  #000;*/
+  color:white;
+  background:;
+  padding-left: 2em;
+   float: left;
+
+}
+h5{
+  font-family: Arial;
+  color:orange;
+  text-align: center;
+}

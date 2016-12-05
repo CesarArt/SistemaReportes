@@ -1,0 +1,52 @@
+section{
+    width: 500px;
+    height: 380px;
+    margin-top: 2%;   
+    margin: auto;
+   position: relative; 
+    background-color: #2E2E2E;
+    border-radius: 5px;
+    box-shadow: cyan;
+}
+
+fieldset{
+    margin-top: -2%;
+  
+}
+#titulo {
+    font-size: 26px;
+}    
+
+
+label, h2{
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+font-weight: bold;
+    display: block;
+    font-family:champ;
+    font-size: 22px;
+}
+input[type="text"], input[type="password"]{
+border-radius: 2px;
+ padding: 6px 3px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;  
+}
+
+input[type="submit"]{
+    border: 1px solid #CED5D7;
+
+padding: 8px 16px;
+border-radius: 11px;
+font-weight: bold;
+text-shadow: 1px 1px 0px white;
+
+background: #e4f1f6;
+}
+footer{
+position: absolute;
+margin-top:1%; 
+}

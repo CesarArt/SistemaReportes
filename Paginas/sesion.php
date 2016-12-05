@@ -1,0 +1,130 @@
+<?php
+   session_start();
+   if(isset($_SESSION['valido'])){
+
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sistema de Reportes</title>
+      <link rel="stylesheet" type="text/css" href="../css/Plantilla.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+  </head>
+  <body>
+
+  <header>
+    <div id="Encabezado">
+      <a href="sesion.php"><img  class="image" src="../imagenes/logo_fesc.png" alt="Logo"/> </a>
+      <a href="sesion.php"><img  class="imagen" src="../imagenes/logo_unam.png" alt="Logo" /> </a>
+      <h1 id="Titulo"> Universidad Nacional Autónoma de México Facultad de Estudios Superiores Cuautitlán </h1>
+    </div>
+    
+  </header>
+
+  <nav>
+    <div id ="Menu">
+       <ul id="regreso">
+
+          <li><a href="sesion.php">Inicio</a></li>
+          <!-- <li><a  href="Acerca.html">Acerca de Nosotros</a>
+             <ul class="submenu">
+                <li><a  href="mision.html">Mision</a></li>
+                <li><a href="Vision.html">Vision</a></li>
+                <li><a href="Valores.html">Valores</a></li>
+              </ul> -->
+          </li>
+          <li><a  href="http://www.cuautitlan.unam.mx/institucional/secretaria_atencion_comunidad.html">Contacto</a></li>
+          <li><a  href="../Paginas/Contenido.html">Contenido</a></li>
+          <li><a  href="../Paginas/CrearReporte.php">Crear Reporte</a></li>
+          <li><a  href="../Paginas/Consulta.php">Consultar Reporte</a></li>
+           <li> 
+          <li > 
+            <?php
+            echo "<h1>".$_SESSION['Nombreadm']."</h1>";
+            ?>
+         
+<ul class="submenu">
+  <a href="../php/cerrar.php">cerrar sesi&oacute;n</a>
+        </ul>
+        </li>
+
+                    
+        </ul>
+      </div>
+  </nav>
+
+
+    <section>
+     <div class="contenido1"> 
+         <div class="contenido4">
+             <img  class="imelda" src="../imagenes/imelda.jpg">
+           </div>
+          <div  class="contenido5" >
+
+            <center >SECRETARIA DE ATENCION A LA COMUNIDAD</center>
+              <p>Nombre del Responsable:<br> Lic. Imelda Márquez Alvarado</p>
+              <p>Ubicación:<br>
+              Edificio de Gobierno, planta baja, Campo Cuatro. Carretera Cuautitlán-Teoloyucan Km. 2.5, Col. San Sebastián Xhala, Cuautitlán Izcalli, Estado de México, CP. 54714</p>
+              <p>Datos para hacer contacto:<br>
+                Teléfono: 5623 1936 ó 5870 6185<br>
+                Correo electrónico: unam.imelda.marquez@gmail.com</p>
+
+           </div>
+          </div>
+          </div>
+
+       <div class="contenido2">
+        <div class="contenido3">
+
+          <img name="numero1" class="nacionales" alt="tipo de poliicas" src="../imagenes/uno.jpg">
+         
+          <center>
+          <button  width="100"  class="botones"  onClick="menos1();">-</button>
+          <button  width="100"  class="bonotes" onClick="mas1();">+</button>
+        </center>
+
+        </div>
+           <div class="contenido3">
+
+          <img name="numero2" class="nacionales" alt="tipo de poliicas" src="../imagenes/cinco.jpg">
+         
+          <center>
+          <button  width="100"  class="botones"  onClick="menos2();">-</button>
+          <button  width="100"  class="bonotes" onClick="mas2();">+</button>
+        </center>
+
+        </div>
+         <div class="contenido3">
+
+           <img name="numero3" class="nacionales" alt="tipo de poliicas" src="../imagenes/1.jpg">
+           <link rel="stylesheet" type="text/css" href="css/index.css"/>
+          <center>
+          <button  width="100"  class="botones"  onClick="menos3();">-</button>
+          <button  width="100"  class="bonotes" onClick="mas3();">+</button>
+        </center>
+
+
+        </div>      
+      </div>
+    </div>
+      <br>
+
+    </section>
+
+
+   
+
+    <footer>
+        <p>Copyright © 2016 Facultad de Estudios Superiores Cuautitlán / México 2016.  SECRETARÍA DE ATENCIÓN
+A LA COMUNIDAD.</p>
+    </footer>
+    
+  </body>
+</html>
+<?php
+}
+else{
+      echo "<p>No puedes ver esto</p>";
+}
+?>

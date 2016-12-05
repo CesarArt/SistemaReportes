@@ -1,0 +1,53 @@
+section{
+    width: 490px;
+    margin: auto;
+    background-color: #E2ECEE;
+}
+.Formulario{
+border: 1px solid #CED5D7;
+border-radius: 6px;
+padding: 45px 45px 20px;
+margin-top: 1px;
+background-color: white;
+box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.Formulario label{
+    display: block;
+    font-weight: bold;
+}
+
+
+
+.Formulario input[type='text'], .Formulario textarea{
+    padding: 6px 3px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.Formulario input[type='text']:focus, .Formulario:focus{
+    box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.Formulario input[type='number'], input[type='date']{
+    padding: 6px 3px;
+    border: 1px solid #04B486;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+
+
+.Formulario input[type="submit"]{
+border: 1px solid #CED5D7;
+box-shadow: 0 0 0 3px #EEF5F7;
+padding: 8px 16px;
+border-radius: 12px;
+font-weight: bold;
+text-shadow: 1px 1px 0px white;
+
+background: #e4f1f6;
+}
+.Formulario input[type='submit']:hover{
+    background: #edfcff;
+}

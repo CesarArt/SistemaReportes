@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sistema de Reportes</title>
+      <link rel="stylesheet" type="text/css" href="../css/Plantilla.css"/>
+      <link rel="stylesheet" type="text/css" href="../css/formS.css"/>
+      </head>
+  <body>
+
+  <header>
+    <div id="Encabezado">
+      <a href="../index.html"><img  class="image" src="../imagenes/logo_fesc.png" alt="Logo"/> </a>
+      <a href="../index.html"><img  class="imagen" src="../imagenes/logo_unam.png" alt="Logo" /> </a>
+      <h1 id="Titulo"> Universidad Nacional Autónoma de México Facultad de Estudios Superiores Cuautitlán </h1>
+    </div>
+    
+  </header>
+
+  <nav>
+    <div id ="Menu">
+       <ul id="regreso">
+
+          <li><a href="../index.html">Inicio</a></li>
+          <!-- <li><a  href="Acerca.html">Acerca de Nosotros</a>
+             <ul class="submenu">
+                <li><a  href="mision.html">Mision</a></li>
+                <li><a href="Vision.html">Vision</a></li>
+                <li><a href="Valores.html">Valores</a></li>
+              </ul> -->
+          </li>
+          <li><a  href="http://www.cuautitlan.unam.mx/institucional/secretaria_atencion_comunidad.html">Contacto</a></li>
+          <li><a  href="../Paginas/Contenido.html">Contenido</a></li>
+          <!--<li><a  href="Reporte.html">Crear Reporte</a></li>-->
+         
+                    
+        </ul>
+      </div>
+  </nav>
+
+
+    <section>
+     <h1 id="titulo">Inicia sesión con tu cuenta </h1> 
+      <form class="form" method="POST" action="../php/valida.php">
+      
+       <fieldset class="field">
+      <legend><h1><strong> Sesión</strong></h1></legend>
+       
+      <label> Numero de Administrador: </label><br/> 
+       	<input style="margin-top: 8px" type="number" name="numA"  placeholder="Numero de Administrador:"><br/> 
+		   
+      <label> Password: </label><br/> 
+       <input style="margin-top: 7px" type="password" name="contraseña"  placeholder="Password"><br/>
+          <label class="recordar">Recordar contraseña</label>
+          <input type="checkbox" name="remember_me" id="rememberme">
+	
+        <p class="submit"><input type="submit" name="commit" value="Iniciar sesión "></p>
+    </fieldset>
+      </form>
+                  
+    </section>
+
+
+   
+
+    <footer>
+        <p>Copyright © 2016 Facultad de Estudios Superiores Cuautitlán / México 2016.  SECRETARÍA DE ATENCIÓN
+A LA COMUNIDAD.</p>
+    </footer>
+    
+  </body>
+</html>

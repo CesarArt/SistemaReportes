@@ -1,0 +1,164 @@
+body{
+  background:url(../imagenes/48.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  margin: 0;
+}
+#logo{
+  height: 110px;
+  width: 95px;
+}
+
+#menu, li ul{
+  background: #261332;
+ opacity:0.9;
+  }
+
+#menu ul{
+  padding:0; 
+  list-style: none;
+}
+
+#regreso{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#regreso a{
+  color: white;
+  text-decoration: none;
+  font-family:Champ;
+  font-size: 150%;
+}
+#regreso li:hover{
+  background: #d68e10;   /**/
+}
+#regreso > li{
+  display: inline-block;
+}
+#regreso > li > a{
+  display: block;
+  padding: 15px 10px;
+  width: 90px;
+}
+li ul{
+  position: absolute;
+  display: none;
+}
+
+.submenu a{
+  display: block;
+  padding: 15px 10px;
+  width: 130px;
+}
+li:hover ul{
+display: block;
+z-index: 2;
+}
+
+.sec4{
+  width:26%;
+  min-height:50%;
+  margin-top:3%; 
+  margin-left:1%;
+  background-color: #454545;
+  opacity:0.9;
+  border-radius: 20px 20px 20px 20px;
+  position:relative; 
+  padding:.01% 2% 1% 9%;
+  left:25%;
+ 
+}
+
+footer{
+  height:5%;
+  width:97.5%;
+  margin-left:-0.7%;
+  margin-top:15%;
+  position:relative;
+  border:#036 0.5px dotted;   /*estilo de borde*/
+   padding:1% 0% 2% 4%;
+  background-color: #c1c1c1;
+  border-radius: 20px 20px 20px 20px;  
+  opacity:0.9;
+}
+section{
+  font-family: champ;
+  font-size: 175%;
+  color: white;
+}
+/*-------------------flotante-------------*/
+.flota
+{
+   position:fixed;
+   top:20%;
+   float:right;
+   right:-9%;
+   width:5%;
+   overflow:hidden;
+   height:2%;
+   background:#f1ecec;
+   color:#ffffff;
+   font-family:alexis marie;
+   font-size: 95%;
+   font-weight:bold;  
+   background-color: #202020;
+   padding:5% 5% 20% 1%;
+   transition:width, 2s ease-out;
+   border-radius:20px;
+   opacity:1;
+   -moz-transition:width 1s ease-out; /* Firefox 4 */
+   -webkit-transition:width 1s ease-in; /* Safari and Chrome */
+   -o-transition:width 1s ease-out; /* Opera */
+}
+
+.flota:hover{
+width:24%;
+/*width:25%*/
+}
+.logo{
+  height: 200px;
+  width: 265px;
+}
+
+p{
+  font-family: Champ;
+  color: white;
+}
+h1{
+  font-family:Champ;
+  font-size: 120%;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  font-family:champ;
+  font-size: 120%;
+  color: white;
+}
+
+  @font-face {
+  font-family: "Champ";
+  src: url("../fuentes/Champ.ttf");
+  
+  }
+  @font-face {
+  font-family: "peachanna";
+  src: url("../fuentes/peachanna.ttf");
+}
+
+footer{
+  height:5%;
+  width:97.5%;
+  margin-left:-0.7%;
+  margin-top:9.8%;
+  position:relative;
+  border:#036 0.5px dotted;   
+   padding:1% 0% 4% 4%;
+  background-color: #232323;
+  border-radius: 20px 20px 20px 20px;  
+  opacity:0.9;
+}

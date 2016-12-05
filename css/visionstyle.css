@@ -1,0 +1,127 @@
+body{
+  background:url(../imagenes/48.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  margin: 0;
+}
+#logo{
+  height: 110px;
+  width: 95px;
+}
+
+#menu, li ul{
+  background: #261332;
+ opacity:0.9;
+  }
+
+#menu ul{
+  padding:0; 
+  list-style: none;
+}
+
+#regreso{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#regreso a{
+  color: white;
+  text-decoration: none;
+  font-family:Champ;
+  font-size: 150%;
+}
+#regreso li:hover{
+  background: #d68e10;   /**/
+}
+#regreso > li{
+  display: inline-block;
+}
+#regreso > li > a{
+  display: block;
+  padding: 15px 10px;
+  width: 90px;
+}
+li ul{
+  position: absolute;
+  display: none;
+}
+
+.submenu a{
+  display: block;
+  padding: 15px 10px;
+  width: 130px;
+}
+li:hover ul{
+display: block;
+z-index: 2;
+}
+
+.sec1{
+  width:70.8%;
+  height:100%;
+  margin-top:5%;
+  margin-left:10%;
+  background-color: #404040; 
+  opacity:.8; 
+  border-radius: 20px 20px 20px 20px;
+  position:relative;
+  padding:.1% 2% .1% 2%;
+  margin-left: 10%;
+  /*top right bottom left*/
+  background-attachment:scroll;
+    font-family: exp;
+    color: white;
+  font-size: 190%;
+  
+}
+
+p{
+  font-family: Champ;
+  color: white;
+}
+h1{
+  font-family:Champ;
+  font-size: 120%;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  font-family:Champ;
+  font-size: 120%;
+  color: white;
+}
+
+@font-face {
+  font-family: "exp";
+  src: url("../fuentes/exp.ttf");
+}
+  @font-face {
+  font-family: "Champ";
+  src: url("../fuentes/Champ.ttf");
+  
+  }
+   @font-face {
+  font-family: "Heypr";
+  src: url("../fuentes/Heypr.ttf");
+  
+  }
+    @font-face {
+  font-family: "font1";
+  src: url("../fuentes/font1.ttf");
+  
+  }
+  footer{
+  height:5%;
+  width:97.5%;
+  margin-left:-0.7%;
+  margin-top:9.8%;
+  position:relative;
+  border:#036 0.5px dotted;   /*estilo de borde*/
+   padding:1% 0% 4% 4%;
+  background-color: #232323;
+  border-radius: 20px 20px 20px 20px;  
+  opacity:0.9;
+}
